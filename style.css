@@ -8,6 +8,16 @@ header{
 .img{
     width: 50px;
 }
+.center{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 235px;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
 .headerright{ 
     color: white;
     display: flex;
@@ -15,6 +25,14 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     margin-right: 12px;
+    gap: 15px;
+    font-size:14px ;
+}
+.but{
+    background-color: black;
+    color: white;
+    padding: 5px 8px 5px 8px;
+    border: 1px solid white;
 }
 .logotxt{
     color: white;
@@ -28,20 +46,18 @@ header{
 .head2{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 7rem; 
-    
+    padding: 0px 50px 40px 200px;
 }
-.h1{
+.mnheading{
     font-size: 8rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
 }
 .mainpara{
     font-size: 22px;
-    margin-top: -74px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 6px;
-    
+    padding: 0 290px 30px 2px;
+    margin-top: -75px;
 }
 .txt{
     padding: 0px 10px 40px 6px;
@@ -50,6 +66,8 @@ header{
 }
 .btns{
     display: flex;
+    justify-content: center;
+    margin-right: 310px;
 }
 .btn1{
     background-color: black;
@@ -80,42 +98,31 @@ header{
 }
 .head3{
     background-color: black;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .img1{
-    width: 500px;
+    width: 242px;
     margin-right: 10px;
 }
 .img2{
-    width: 500px;
+    width: 242px;
     margin-right: 5px;
 }
 .img3{
-    width:490px;
+    width:242px;
     padding-right: 10px;
     margin-right:10px ;
 }
 .img4{
-    width: 500px;}
-    
+    width: 242px;}
 .images{
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.grp1{
     display: flex;
-    margin-left: 5px;
     flex-direction: row;
+    padding-left: 10px;
+    padding-right: 8px;
     gap: 5px;
-    margin-bottom: 1rem;
 }
-.grp2{
-    display: flex;
-    margin-left: 5px;
-    flex-direction: row;
-    gap: 5px;
-    padding-bottom: 6rem
-}
-
 .h1{
     color: white;
     font-size: 36px;

@@ -427,6 +427,7 @@ header{
 .head14{
     background-color: black;
     color: white;
+    border: 1px solid white;
 }
 .bodylft{
     padding: 0px 0 100px 15px;
@@ -448,7 +449,15 @@ header{
     display: flex;
     align-self: self-end;
 }
-
+.head15{
+    background-color:black;
+}
+.bord1{
+    background-color: blueviolet;
+}
+.bottom{
+    background-color: black;
+}
 
 
 

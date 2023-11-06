@@ -47,6 +47,8 @@ header{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding: 0px 50px 40px 200px;
+    display: flex;
+    justify-content: center;
 }
 .mainbody{
     padding-top: 60px;
@@ -77,27 +79,26 @@ header{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid white;
-    padding: 5px 10px 5px 10px;
-    font-size: 1rem;
+    padding: 3px 12px 3px 12px;
+    font-size: 14px;
     margin-left: 6px;
     word-spacing: 0.001px;
+    border-radius: 3px;
 }
 .btn2{
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    padding: 5px 10px 5px 10px ;
+    font-size: 15px;
+    padding: 5px 10px 0px 10px ;
     border-bottom: 1px solid white;
-    border-top: none;
-    border-left: none;
-    border-right: none;
     word-spacing: 0.011px;
 }
 .btns{
     gap: 1rem;
-    padding-top: 2rem;
+    padding-top: 6px;
     padding-bottom: 2rem;
+    margin-left: -170px;
 }
 .head3{
     background-color: black;
@@ -259,12 +260,8 @@ header{
 }
 .head9{
     background-color: #0000FF;
-}
-.image{
-    width: 1020px;
     display: flex;
-    margin-left: 15px;
-    padding-bottom: 75px;
+    justify-content: center;
 }
 .hamas{
     background-color: black;
@@ -458,7 +455,13 @@ header{
 .bottomlast{
     padding-bottom: 80px;
 }
-
+.video{
+    padding-bottom: 80px;
+}
+.bigdiv{
+    display: flex;
+    justify-content: center;
+}
 
 
 
